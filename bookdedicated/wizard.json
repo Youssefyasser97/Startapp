@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Harry Potter",
+		"wand": [
+			{
+				"core": "phoenix feather",
+				"length": "11 inches",
+				"wood": "holly"
+			}
+		]
+	},
+	{
+		"name": "Hermione Granger",
+		"wand": [
+			{
+				"core": "dragon heartstring",
+				"length": "10 and 3/4 inches",
+				"wood": "vine"
+			}
+		]
+	}
+]

@@ -1,0 +1,110 @@
+<html>
+<head>
+    
+    
+    <!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="../../imgg/startapplogopng.png" type="image/x-icon">
+<link rel="apple-touch-icon" href="../../imgg/startapplogopng.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../../img/apple-touch-icon-114x114.png">
+
+
+    
+    
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+    background-color: #a7c44c;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #a7cF4c;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left:-10px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.middle{
+    
+    
+    text-align:center;
+    
+}
+</style>
+</head>
+<body>
+
+
+<div class="middle">
+<br/><br/>
+<h2>ON ARRIVAL RESERVATIONS</h2>
+<p>Choose the type of booking</p>
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Click to choose</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://www.ydawood.com/bookcoworking">Co-working Space</a>
+    <a href="https://www.ydawood.com/bookdedicated">Dedicated Table</a>
+    <a href="https://www.ydawood.com/bookmeeting">Meeting Room</a>
+    <a href="https://www.ydawood.com/bookprivate">Private Office</a>
+    <a href="https://www.ydawood.com/bookevent">Event</a>
+    <a href="https://www.ydawood.com/bookstartup">Start-up</a>
+  </div>
+</div>
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
