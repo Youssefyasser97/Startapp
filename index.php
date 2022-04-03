@@ -188,13 +188,13 @@ li:hover li
         <li><a href="#portfolio" class="page-scroll"><b>Photos</b></a></li>
         <li><a href="#team" class="page-scroll"><b>Team</b></a></li>
         <li><a href="#contact" class="page-scroll"><b>Contact</b></a></li>
-        <li><a href=""><b>My Websites</b></a>
+        <!-- <li><a href=""><b>My Websites</b></a>
         <ul>
         <li class="dropit"><a href="/espacedesign">Espace Design</a></li>
         <li class="dropit"><a href="/breeze">Breeze</a></li>
         <li class="dropit"><a href="/vp">Visual Programming</a></li>
         </ul>
-      </li>
+      </li> -->
       </ul>
     </div>
     <!-- /.navbar-collapse -->
